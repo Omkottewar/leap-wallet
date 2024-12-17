@@ -1,5 +1,5 @@
 import { AppStore, Brave, Chrome, dashboard, Explorer, PlayStore, SwapFast } from "../assets"
-import DownloadPill from "./downloadPill"
+import DownloadPill from "./DownloadPill"
 
 const Download = () => {
 
