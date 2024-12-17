@@ -1,0 +1,12 @@
+export { default as blog1 } from './blog1.png';
+export { default as blog2 } from './blog2.png';
+export { default as browserBackground } from './browserBackground.png';
+export { default as browserGrid1 } from './browserGrid1.png';
+export { default as browserGrid2 } from './browserGrid2.png';
+export { default as browserGrid3 } from './browserGrid3.png';
+export { default as browserGrid4 } from './browserGrid4.png';
+export { default as browserHero } from './browserHero.png';
+export { default as browserHero1 } from './browserHero1.png';
+export { default as browserHero2 } from './browserHero2.png';
+export { default as browserHero3 } from './browserHero3.png';
+export { default as hero1 } from './hero1.png';

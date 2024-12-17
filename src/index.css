@@ -1,0 +1,80 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@import url('/css/satoshi.css');
+body {
+  font-family: 'Satoshi', sans-serif;
+  background-color: #E9FEEC;
+};
+
+
+h1 {
+  font-family: 'Satoshi', sans-serif ;
+}
+
+li>img{
+  width: 35px;
+}
+li {
+  display: flex;
+}
+
+
+.nav-container{
+  background-color: white;
+}
+.menu{
+  display: hidden;
+}
+
+.hover-div> div>img{
+  width: 50px;
+
+
+}
+.hover-div> div{
+  display: flex;
+  align-items: center;
+  gap:10px;
+  padding:5px;
+  border-radius: 10px;
+}
+.hover-div>div:hover{
+  background-color: rgb(218, 212, 212);
+}
+
+.hero-grid>div{
+
+}
+
+@keyframes sliderleft {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes sliderright {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(50%);
+  }
+}
+
+.animate-sliderleft {
+  display: flex;
+  width: max-content;
+  animation: sliderleft 50s linear infinite;
+}
+
+.animate-sliderright {
+  display: flex;
+  width: max-content;
+  animation: sliderright 50s linear infinite;
+}
